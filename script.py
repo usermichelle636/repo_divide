@@ -1,12 +1,15 @@
 num = int(input("Da un entero: "))
 
-if num%3 == 0:
+if num%15 == 0:
+    print("Divisible entre 3 y 5")
+else num%3:
     print("Divisible entre 3")
-else:
-    print("No es divisible entre 3")
 
-if num%5 == 0:
+else if num%5 == 0:
     print("Divisible entre 5")
 else:
     print("No es divisible entre 5")
-    print()
+else:
+    print(n)
+    
+print('goodbye')
